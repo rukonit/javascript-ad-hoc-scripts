@@ -4,7 +4,7 @@ const person = {
     }
 }
 
-const person1 = [{
+const personData = [{
     firstName: 'Rukon',
     lastName: 'Khan'
 },{
@@ -13,7 +13,7 @@ const person1 = [{
 }]
 
 
-for (let item of person1) {
+for (let item of personData) {
 console.log(person.fullName.apply({...item}))
 }
 
